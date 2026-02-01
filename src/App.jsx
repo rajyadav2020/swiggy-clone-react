@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Header from './components/Headers'
 import Foodoption from './components/Foodoption'
 import Groceryoption from './components/Groceryoption'
+import Dineoption from './components/dine/Dineoption'
 import './App.css'
 import "./index.css" 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <Header></Header>
     <Foodoption></Foodoption>
     <Groceryoption></Groceryoption>
+    <Dineoption></Dineoption>
     
     </>
   )
